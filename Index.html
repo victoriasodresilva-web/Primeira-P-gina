@@ -1,27 +1,58 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-<h1>minha pagina</h1>
-    </header>
-    <main>
-<section>
-    <img src="limp.jpg" alt="">
-    <p>Victoria</p>
-</section>
-</section>
-    <h2>Informações</h2>
-    <button>botão 1</button>
-     <button>botão 2</button>
-</section>
-    </main>
-    <footer>
+<!DOCTYPE html> <!-- informa ao navegador que o documento usa HTML5 -->
+<html lang="pt-BR"> <!-- início do documento HTML e definição do idioma como português do Brasil -->
+<head> <!-- início da área de configurações da página -->
+    <meta charset="UTF-8"> <!-- permite o uso correto de acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ajusta a página para funcionar bem em celulares e telas menores -->
+    <title>Mini Currículo</title> <!-- título que aparece na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- conecta este arquivo HTML ao arquivo CSS -->
+</head> <!-- fim da área de configurações -->
+<body> <!-- início do conteúdo visível da página -->
 
-    </footer>
-</body>
-</html>
+    <header> <!-- cabeçalho da página -->
+        <h1>Mini Currículo</h1> <!-- título principal exibido no topo -->
+        <p>Exemplo simples de landing page</p> <!-- pequeno texto de apoio abaixo do título -->
+    </header> <!-- fim do cabeçalho -->
+
+    <main> <!-- conteúdo principal da página -->
+        <section class="apresentacao"> <!-- seção de apresentação com classe para estilização no CSS -->
+            <img src="foto.jpg" alt="Foto de perfil"> <!-- imagem de perfil; o alt descreve a imagem caso ela não carregue -->
+            
+            <h2>Marcelo Y.</h2> <!-- nome da pessoa -->
+            <p>Professor da área de tecnologia e programação.</p> <!-- descrição curta da pessoa -->
+
+            <button id="btnMensagem">Mostrar mensagem</button> <!-- botão que mostrará uma mensagem usando JavaScript -->
+            <button id="btnCor">Mudar cor do card</button> <!-- botão que mudará a cor do card usando JavaScript -->
+
+            <p id="mensagem"></p> <!-- parágrafo inicialmente vazio onde a mensagem será exibida -->
+        </section> <!-- fim da seção de apresentação -->
+
+        <section class="informacoes"> <!-- seção com informações adicionais -->
+            <h2>Sobre mim</h2> <!-- subtítulo da seção -->
+            <p> <!-- início do parágrafo -->
+                Tenho interesse em desenvolvimento web, programação orientada a objetos
+                e produção de materiais didáticos para ensino de computação.
+            </p> <!-- fim do parágrafo -->
+
+            <h2>Habilidades</h2> <!-- subtítulo da seção de habilidades -->
+            <ul> <!-- início de uma lista não ordenada -->
+                <li>HTML</li> <!-- item da lista -->
+                <li>CSS</li> <!-- item da lista -->
+                <li>JavaScript</li> <!-- item da lista -->
+                <li>Java</li> <!-- item da lista -->
+            </ul> <!-- fim da lista -->
+
+            <h2>Contato</h2> <!-- subtítulo da seção de contato -->
+            <p>Email: exemplo@email.com</p> <!-- informação de email -->
+            <p>Cidade: Londrina - PR</p> <!-- informação de cidade -->
+        </section> <!-- fim da seção de informações -->
+    </main> <!-- fim do conteúdo principal -->
+
+    <footer> <!-- rodapé da página -->
+        <p>Projeto simples para alunos iniciantes</p> <!-- texto exibido no rodapé -->
+    </footer> <!-- fim do rodapé -->
+
+    <script src="script.js"></script> <!-- conecta o arquivo JavaScript à página -->
+</body> <!-- fim do corpo da página -->
+</html> <!-- fim do documento HTML -->
+index.html
+Exibindo index.html…
