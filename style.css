@@ -59,8 +59,8 @@ main {
 
 /* estiliza todos os botões da página */
 button {
-    background-color: #2b6cb0; /* define a cor de fundo do botão */
-    color: white; /* define a cor do texto do botão */
+    background-color: #5e3887; /* define a cor de fundo do botão */
+    color: rgb(138, 243, 111); /* define a cor do texto do botão */
     border: none; /* remove a borda padrão */
     padding: 12px 18px; /* adiciona espaçamento interno no botão */
     margin: 5px; /* adiciona espaço externo em volta do botão */
@@ -71,7 +71,7 @@ button {
 
 /* efeito aplicado quando o mouse passa sobre o botão */
 button:hover {
-    background-color: #1e4e8c; /* escurece a cor do botão ao passar o mouse */
+    background-color: #eb18cf; /* escurece a cor do botão ao passar o mouse */
     transform: scale(1.05); /* aumenta levemente o tamanho do botão */
 }
 
